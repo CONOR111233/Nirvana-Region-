@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        state: "Join Nirvana!",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -52,7 +52,7 @@ export const botConfig = {
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || ",",
   },
 
   // =========================
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#d7c551",
+      secondary: "#252000",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -110,7 +110,7 @@ export const botConfig = {
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
       green: "#57F287",
-      yellow: "#FEE75C",
+      yellow: "#d7c551",
       fuchsia: "#EB459E",
       red: "#ED4245",
       black: "#000000",
@@ -121,14 +121,14 @@ export const botConfig = {
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#d7c551",
+        claimed: "#d7c551",
+        closed: "#d7c551",
+        pending: "#d7c551",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#d7c551",
+      birthday: "#d7c551",
+      moderation: "#d7c551",
 
       // Ticket priority color mapping.
       priority: {
@@ -136,12 +136,12 @@ export const botConfig = {
         low: "#3498db",
         medium: "#2ecc71",
         high: "#f1c40f",
-        urgent: "#e74c3c",
+        urgent: "#d7c551",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Nirvana Region™",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -233,7 +233,7 @@ export const botConfig = {
       },
       medium: {
         emoji: "🟡",
-        color: "#F1C40F",
+        color: "#d7c551",
         label: "Medium",
       },
       high: {
