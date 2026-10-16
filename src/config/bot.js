@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Join Nirvana!",     // this is what people actually see
+        state: "Elite Bot!",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Nirvana Region™",
+      text: "Elite Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
