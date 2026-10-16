@@ -163,7 +163,7 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1560595404079235073],
 
     // Priority options users/staff can assign.
     priorities: {
@@ -201,7 +201,7 @@ export const botConfig = {
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1560595087296172150,
   },
 
   // =========================
@@ -234,13 +234,13 @@ export const botConfig = {
   // =========================
   birthday: {
     // Role ID given to users on their birthday.
-    defaultRole: null,
+    defaultRole: 1560595178429878372,
 
     // Channel ID where birthday announcements are posted.
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "BST",
   },
 
   // =========================
@@ -324,9 +324,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1560594992865615882,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1560595042626961449,
   },
 
   // =========================
@@ -395,7 +395,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
+    economy: false,
     leveling: true,
     moderation: true,
     logging: true,
@@ -408,17 +408,17 @@ export const botConfig = {
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
+    verification: false,
     reactionRoles: true,
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
     voice: true,
-    search: true,
+    search: false,
     tools: true,
     utility: true,
     community: true,
-    fun: true,
+    fun: false,
     music: true,
   },
 };
